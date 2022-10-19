@@ -17,17 +17,17 @@ export default function Home() {
       <div className='bg-[#F5D3EE] py-3'>
         <div className='sm:flex justify-between px-10 sm:py-20 py-6 items-center mt-10'>
           <div className='sm:py-5 pb-10'>
-            <h3 className='text-4xl mb-5 text-[#894862] font-bold sm:text-left text-center'>Hi, I'm</h3>
+            <h3 className='text-4xl mb-5 text-[#894862] font-bold sm:text-left text-center'>Hi, I&apos;m</h3>
             <h1 className='text-6xl mb-5 text-[#926893] font-bold sm:text-left text-center'>Rofifatuz Zulfa Darwista</h1>
             <h3 className='text-4xl text-[#894862] font-bold sm:text-left text-center'>A Dedicated and Joyful Frontend Developer</h3>
             <div className='mt-20'>
               <button className='mr-5 rounded-full text-[#894862] font-semibold border-[1px] border-[#894862] px-3 py-[1px] bg-[#F4EBF0] hover:bg-[#894862] hover:text-[#F4EBF0] active:bg-[#F4EBF0] active:text-[#894862]'>About</button>
-              <button>Works</button>
+              <button className='mr-5 rounded-full text-[#894862] font-semibold border-[1px] border-[#894862] px-3 py-[1px] bg-[#F4EBF0] hover:bg-[#894862] hover:text-[#F4EBF0] active:bg-[#F4EBF0] active:text-[#894862]'>Works</button>
               <button>Contact</button>
             </div>
           </div>
           <div className='flex justify-center'>
-            <Image src="/foto.jpg" width={500} height={500} className='object-cover rounded-full'/>
+            <Image src="/foto.jpg" alt='foto' width={500} height={500} className='object-cover rounded-full'/>
           </div>
         </div>
       </div>

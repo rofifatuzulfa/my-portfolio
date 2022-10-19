@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="bg-[#F4EBF0]">
       <div className="flex justify-between items-center py-1 px-4 bg-[#F5BCD9]">
         <div>
-          <Image src="/logo.png" width={90} height={50} />
+          <Image src="/logo.png" alt="logo" width={90} height={50} />
         </div>
         <div className="smmax:hidden">
           <button className="text-[#894862] font-bold active:text-[#894862] hover:text-[#894862]/60">

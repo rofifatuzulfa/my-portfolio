@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="flex justify-between items-center py-1 px-5 bg-[#F5BCD9]">
       <div>
-        <Image src="/logo.png" width={90} height={50} />
+        <Image src="/logo.png" alt="logo" width={90} height={50} />
       </div>
       <div className="flex">
         <button className="px-3">
