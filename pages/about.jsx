@@ -32,7 +32,7 @@ const About = () => {
             </p>
             <p className="text-lg text-[#926893] indent-10 pt-3 text-justify">
               I have no experience being web developer in any tech company, but
-              I&apos;ve graduated from Alterra Academy's Frontend Engineering
+              I&apos;ve graduated from Alterra Academy&apos;s Frontend Engineering
               program and enthusiast to lead my current career path towards the
               digital technology field, especially in Frontend Developing. I
               also experienced working with others Frontend Engineering students
