@@ -7,19 +7,19 @@ import { URL } from "next/dist/compiled/@edge-runtime/primitives/url";
 const About = () => {
   return (
     <div className="bg-[#F4EBF0] h-full w-full">
-      <div className="fixed w-full h-auto">
+      <div className="fixed z-50 w-full h-auto">
         <Navbar />
       </div>
       <div className="pt-24 mb-10 text-center text-[#894862] font-bold">
         <h2 className="text-4xl xl:mr-20">Glad to meet you!</h2>
         <div className="lg:flex justify-around lg:px-10 py-5 xl:px-20">
-          <div className="flex justify-center md:justify-self-center items-center bg-cover w-6/12 shadow-2xl shadow-[#894862]/50">
+          <div className="flex h-auto justify-center md:justify-self-center lgmax:w-full items-center bg-cover w-6/12 lg:shadow-2xl lg:shadow-[#894862]/50">
             <Image
               src="/foto2.jpg"
               alt="foto2"
               width={350}
               height={450}
-              className="object-cover z-99"
+              className="object-cover lgmax:hover:scale-125 lgmax:shadow-2xl lgmax:shadow-[#894862]/50"
             />
           </div>
           <div className="text-left w-full smmax:px-5 md:px-10 lg:pl-10 lg:pt-0 pt-5">
