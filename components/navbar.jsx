@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import Router from "next/router";
 
 const Navbar = () => {
   const [burger, setBurger] = useState(true);
@@ -11,6 +12,10 @@ const Navbar = () => {
     setBurger(!burger);
   };
 
+  const goHome = () => {
+    Router.push("/");
+  };
+
   return (
     <div className="bg-[#F4EBF0]">
       <div className="flex justify-between items-center py-1 px-4 bg-[#F5BCD9]">
@@ -18,6 +23,12 @@ const Navbar = () => {
           <Image src="/logo.png" alt="logo" width={90} height={50} />
         </div>
         <div className="smmax:hidden">
+          <button
+            className="mr-[70px] text-[#894862] font-bold active:text-[#894862] hover:text-[#894862]/60"
+            onClick={() => goHome()}
+          >
+            Home
+          </button>
           <button className="text-[#894862] font-bold active:text-[#894862] hover:text-[#894862]/60">
             About
           </button>
@@ -37,6 +48,11 @@ const Navbar = () => {
       </div>
       {burger ? null : (
         <div className="text-center sm:hidden bg-[#F4EBF0] pb-2">
+          <div className="my-3">
+            <button className="text-[#894862] font-bold active:text-[#894862] hover:text-[#894862]/60">
+              Home
+            </button>
+          </div>
           <div className="my-3">
             <button className="text-[#894862] font-bold active:text-[#894862]/60 hover:text-yellow-400">
               About
