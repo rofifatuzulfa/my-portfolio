@@ -13,12 +13,13 @@ const About = () => {
       <div className="pt-24 mb-10 text-center text-[#894862] font-bold">
         <h2 className="text-4xl xl:mr-20">Glad to meet you!</h2>
         <div className="lg:flex justify-around lg:px-10 py-5 xl:px-20">
-          <div className="flex justify-center text-center items-start bg-cover lg:w-6/12">
-            <img
+          <div className="flex justify-center md:justify-self-center items-center bg-cover w-6/12 shadow-2xl shadow-[#894862]/50">
+            <Image
               src="/foto2.jpg"
               alt="foto2"
-              width="350"
-              className="object-cover shadow-2xl shadow-[#894862]/50"
+              width={350}
+              height={450}
+              className="object-cover z-99"
             />
           </div>
           <div className="text-left w-full smmax:px-5 md:px-10 lg:pl-10 lg:pt-0 pt-5">
